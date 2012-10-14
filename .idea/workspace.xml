@@ -58,38 +58,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChanceCheckTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ChanceCheckTest.java">
+      <file leaf-file-name="TestOccurrence.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/TestOccurrence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="45" column="19" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.75206614">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChanceCheck.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ChanceCheck.java">
+      <file leaf-file-name="Occurrence.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Occurrence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="55" selection-end="55" vertical-scroll-proportion="0.07531381">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestDice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="90" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="7" column="54" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +95,9 @@
         <option value="$PROJECT_DIR$/test/ChanceCheck.java" />
         <option value="$PROJECT_DIR$/test/ChanceCheckTest.java" />
         <option value="$PROJECT_DIR$/src/ChanceCheck.java" />
+        <option value="$PROJECT_DIR$/test/TestOcurrence.java" />
+        <option value="$PROJECT_DIR$/src/Occurrence.java" />
+        <option value="$PROJECT_DIR$/test/TestOccurrence.java" />
       </list>
     </option>
   </component>
@@ -144,6 +133,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -154,10 +153,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ChanceDice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -196,12 +191,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -210,6 +205,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -224,13 +220,35 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChanceCheckTest.ChanceFor3And6AreSame">
-    <configuration default="false" name="TestDice" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.TestOccurrence.shouldReturnTrueForTwoEqualOccurrencesWithDifferentOutcomes">
+    <configuration default="false" name="TestOccurrence.shouldReturnChanceOf1In2" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ChanceDice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDice" />
+      <option name="MAIN_CLASS_NAME" value="TestOccurrence" />
+      <option name="METHOD_NAME" value="shouldReturnChanceOf1In2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestOccurrence" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ChanceDice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOccurrence" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -247,13 +265,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestDice.shouldReturnsNumberOfThreeFaces" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestOccurrence.shouldReturnTrueForTwoEqualOccurrences" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ChanceDice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDice" />
-      <option name="METHOD_NAME" value="shouldReturnsNumberOfThreeFaces" />
+      <option name="MAIN_CLASS_NAME" value="TestOccurrence" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForTwoEqualOccurrences" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -269,13 +287,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestDice.shouldReturnsNumberOfFourFaces" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestOccurrence.shouldReturnFalseForTwoDifferentOccurrences" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ChanceDice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDice" />
-      <option name="METHOD_NAME" value="shouldReturnsNumberOfFourFaces" />
+      <option name="MAIN_CLASS_NAME" value="TestOccurrence" />
+      <option name="METHOD_NAME" value="shouldReturnFalseForTwoDifferentOccurrences" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -291,13 +309,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ChanceCheckTest.ChanceFor3And6AreSame" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestOccurrence.shouldReturnTrueForTwoEqualOccurrencesWithDifferentOutcomes" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ChanceDice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChanceCheckTest" />
-      <option name="METHOD_NAME" value="ChanceFor3And6AreSame" />
+      <option name="MAIN_CLASS_NAME" value="TestOccurrence" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForTwoEqualOccurrencesWithDifferentOutcomes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -430,11 +448,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestDice.shouldReturnsNumberOfThreeFaces" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDice.shouldReturnsNumberOfFourFaces" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChanceCheckTest.ChanceFor3And6AreSame" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestOccurrence.shouldReturnChanceOf1In2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestOccurrence" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestOccurrence.shouldReturnTrueForTwoEqualOccurrences" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestOccurrence.shouldReturnFalseForTwoDifferentOccurrences" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestOccurrence.shouldReturnTrueForTwoEqualOccurrencesWithDifferentOutcomes" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -462,6 +481,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="dcafb7ae-b4f1-4e53-81d1-d6834ec04286" name="Default" comment="" />
       <created>1350036248037</created>
       <updated>1350036248037</updated>
     </task>
@@ -479,18 +499,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6706507" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24928162" sideWeight="0.6706507" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -552,31 +572,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Dice.java">
+    <entry file="file://$PROJECT_DIR$/src/Occurrence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="7" column="54" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestDice.java">
+    <entry file="file://$PROJECT_DIR$/test/TestOccurrence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="90" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ChanceCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChanceCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="55" selection-end="55" vertical-scroll-proportion="0.07531381">
-          <folding />
+        <state line="45" column="19" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.75206614">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
